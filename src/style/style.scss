@@ -1,0 +1,134 @@
+body{
+    margin:0;
+}
+
+.navbar{
+    z-index: 2;
+    background-color: rgba(255, 48, 48, 0.9);
+    box-shadow: 1px 0 10px rgb(0 0 0 / 30%);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:sticky;
+    top:0;
+    height:70px;
+    font-size: 1.4rem;
+    padding:0 15px;
+
+    ul{
+        display:flex;
+        list-style-type: none;  
+        justify-content: space-around;
+
+        li{
+            padding:15px;
+            color:white;
+        }
+    }
+    
+}
+
+
+
+.banner{
+    position:relative;
+    top:-70px;
+    max-height: 100vh;
+    margin-bottom: -70px;
+
+    .banner-header{
+        padding:200px 20px 130px;
+        .banner-img{
+            img{
+                position:absolute;
+                top:0;
+                left:0;
+                z-index: -1;
+                width:100%;
+                height:100%;
+                
+                object-fit: cover;
+            }
+        }   
+
+        .banner-heading{
+            padding: 130px 0;
+            
+            text-align: center;
+            color:rgb(224, 22, 22);
+            
+            .title{
+                font-weight: bold;
+                font-size: 6rem;
+                background: rgba(255, 255, 255, 0.7);
+                padding: 5px 10px;
+                margin:2px auto;
+                width:fit-content;
+            }
+
+            .moto{
+                font-size: 2rem;
+                text-decoration: underline;
+                background: rgba(255, 255, 255, 0.7);
+                padding: 5px 10px;
+                margin:2px auto;
+                width:fit-content;
+            }
+        }
+
+
+    
+    }   
+    // background-image: url('https://images.unsplash.com/photo-1611601184963-9d1de9b79ff3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80');
+}
+
+.page-banner{
+    margin:20px 0;
+    display:grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: repeat(2,auto);
+
+    img{
+        max-width:100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .banner-cell{
+        background-color: rgb(43, 43, 43);
+        color:white;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+
+@media (max-width:700px){
+    .page-banner{
+        margin:20px 0;
+        display:grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        grid-template-rows: repeat(6,auto);
+
+        .page-cell{
+            padding:10vw;
+        }
+    }
+}
+
+footer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+    background-color: grey;
+    color:white;
+
+
+    a{
+        text-decoration: none;
+        color:white;
+    }
+}

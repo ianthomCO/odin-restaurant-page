@@ -1,1 +1,3 @@
-console.log("testing this works!")
+import './style/style.scss'
+
+console.log("This works!");
