@@ -1,5 +1,6 @@
-body{
+body,ul{
     margin:0;
+    padding:0;
 }
 
 .navbar{
@@ -19,7 +20,7 @@ body{
         justify-content: space-around;
 
         li{
-            padding:15px;
+            padding:12px;
             color:white;
         }
     }
@@ -117,7 +118,7 @@ body{
 
     .banner-heading{
         .title{
-            font-size: 4rem !important;
+            font-size: 4.5rem !important;
         }
         .moto{
             font-size:1.8rem !important;
