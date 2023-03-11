@@ -1,6 +1,5 @@
-body, ul{
+body{
     margin:0px;
-    padding:0px;
 }
 
 .navbar{
@@ -18,6 +17,7 @@ body, ul{
         display:flex;
         list-style-type: none;  
         justify-content: space-around;
+        padding:0;
 
         li{
             padding:12px;
