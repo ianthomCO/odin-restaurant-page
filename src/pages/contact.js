@@ -1,6 +1,4 @@
 function loadContact(){
-    console.log("Load Contact Page");
-
     loadHeader();
     loadMain();
 }
@@ -47,7 +45,5 @@ function loadMain(){
     main.textContent = "";
     main.appendChild(createMain());  
 }
-
-
 
 export default loadContact;

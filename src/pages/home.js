@@ -1,10 +1,6 @@
 function loadHome(){
-
     loadMain();
     loadHeader();
-
-    
-    console.log("Load Home Page");
 }
 
 function loadHeader(){
@@ -63,7 +59,6 @@ function loadMain(){
     
     main.textContent = "";
     main.appendChild(createMain());    
-
 }
 
 export default loadHome;

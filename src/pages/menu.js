@@ -1,6 +1,4 @@
 function loadMenu(){
-    console.log("Load Menu Page");
-
     loadHeader();
     loadMain();
 }

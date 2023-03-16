@@ -17,4 +17,3 @@ function addNavEvents(){
     menu.addEventListener('click',loadMenu);
     contact.addEventListener('click',loadContact);
 }
-

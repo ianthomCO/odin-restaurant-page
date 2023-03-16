@@ -5,7 +5,6 @@ function initializeWebsite(){
     createHeader();
     createMain();
     createFooter();
-
     loadHome();
 }
 
