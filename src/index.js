@@ -1,9 +1,9 @@
 import './style/style.scss';
 
-import loadAbout from './pages/about';
-import loadContact from './pages/contact';
+import initializeWebsite from './pages/initialize';
 import loadHome from './pages/home';
 import loadMenu from './pages/menu';
+import loadContact from './pages/contact';
 
 createNav();
 
@@ -11,7 +11,7 @@ function createNav(){
     const content = document.getElementById('content');
     const nav = document.createElement('nav');
     const ul = document.createElement('ul');
-    const navBarList = ["Home","Menu","About Us","Contact"];
+    const navBarList = ["Home","Menu","Contact"];
 
     nav.classList.add("navbar");
 
