@@ -145,22 +145,24 @@ main{
 
 
 @media (max-width:700px){
-    .page-banner{
-        margin:20px 0;
-        display:grid;
-        grid-template-columns: repeat(1, minmax(0, 1fr));
-        grid-template-rows: repeat(6,auto);
+    main{
+        .page-banner{
+            margin:20px 0;
+            display:grid;
+            grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+            grid-template-rows: repeat(6,auto) !important;
 
-        .page-cell{
-            padding:10vw;
+            .page-cell{
+                padding:10vw;
 
-            .quote{
-                font-size: clamp(1.5rem,5vw,4rem);
-            }
-    
-            .author{
-                font-size: clamp(1rem,3vw,2rem)
+                .quote{
+                    font-size: clamp(1.5rem,5vw,4rem);
+                }
+        
+                .author{
+                    font-size: clamp(1rem,3vw,2rem)
 
+                }
             }
         }
     }
