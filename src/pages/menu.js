@@ -18,7 +18,9 @@ function createMain(){
         {item:"Eggs Benedict",price:12,description:"Canadian bacon stacked on an english muffin with two eggs and hollandaise"},
         {item:"Avocado Benedict",price:12,description:"Avocado, tomato, and arugula stacked on an english muffin with two eggs and hollandaise"},
         {item:"French Toast",price:10,description:"Thick sliced sourdough bread dipped in custard batter"},
-        {item:"Biscuits & Gravy",price:11,description:"Creamy sausage gravy on top of homemade buttermilk biscuits"}
+        {item:"Biscuits & Gravy",price:11,description:"Creamy sausage gravy on top of homemade buttermilk biscuits"},
+        {item:"Veggie Omelette",price:12,description:"Broccoli, muschrooms, tomatoes, spinach, onions, and blended cheddar"},
+        {item:"Breakfast Tacos",price:11,description:"Scrambled effs, diced green chilis, onions, tomatoes, cheddar cheese, and choise of chorizo sausage or avocado"}
     ];
 
     const menu = document.createElement('div');
