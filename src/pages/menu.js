@@ -12,5 +12,4 @@ function loadHeader(){
     moto.textContent = "What You Want To Eat";
 }
 
-
 export default loadMenu;

@@ -15,8 +15,7 @@ function loadHeader(){
     moto.textContent = "Where You Want To Eat";
 }
 
-function loadMain(){
-    const main = document.querySelector('main');
+function createMain(){
     const pageBanner = document.createElement('div');
 
     const quotes = [
@@ -56,7 +55,14 @@ function loadMain(){
         pageBanner.appendChild(image);
     }
 
-    main.appendChild(pageBanner);    
+    return pageBanner;
+}
+
+function loadMain(){
+    const main = document.querySelector('main');
+    
+    main.textContent = "";
+    main.appendChild(createMain());    
 
 }
 
